@@ -1,19 +1,19 @@
-## One dark UI theme [![Build Status](https://travis-ci.org/atom/one-dark-ui.svg?branch=master)](https://travis-ci.org/atom/one-dark-ui)
+## One dark UI theme [![Build Status](https://travis-ci.org/atom/vanian-ui.svg?branch=master)](https://travis-ci.org/atom/vanian-ui)
 
 A dark UI theme that adjusts to most Syntax themes.
 
-![one-dark-ui](https://cloud.githubusercontent.com/assets/378023/6979859/96e416e8-da24-11e4-995c-00dcd84c276d.png)
+![vanian-ui](https://cloud.githubusercontent.com/assets/378023/6979859/96e416e8-da24-11e4-995c-00dcd84c276d.png)
 
 > The font used in the screenshots is [Fira Mono](https://github.com/mozilla/Fira). Icons by [file-icons](https://atom.io/packages/file-icons).
 
 ### Combine with other Syntax themes
 
-There is a matching [Syntax theme](https://atom.io/themes/one-dark-syntax), but most other Syntax themes work fine as well.
+There is a matching [Syntax theme](https://atom.io/themes/vanian-syntax), but most other Syntax themes work fine as well.
 
-![one-dark-ui + sepia](https://cloud.githubusercontent.com/assets/378023/6979865/af2d59da-da24-11e4-8ab6-974c50534b86.png)
+![vanian-ui + sepia](https://cloud.githubusercontent.com/assets/378023/6979865/af2d59da-da24-11e4-8ab6-974c50534b86.png)
 > One dark + [Sepia](https://atom.io/themes/sepia-syntax)
 
-![one-dark-ui chester](https://cloud.githubusercontent.com/assets/378023/6979876/cd0fca64-da24-11e4-9006-4f7e1ff80cad.png)
+![vanian-ui chester](https://cloud.githubusercontent.com/assets/378023/6979876/cd0fca64-da24-11e4-9006-4f7e1ff80cad.png)
 > One dark + [Chester](https://atom.io/themes/chester-atom-syntax)
 
 ### Install
@@ -43,7 +43,7 @@ And pick a __Tab Sizing__ mode:
 It's also possible to resize only certain areas by adding the following to your `styles.less` (Use the DevTools to find the right selectors):
 
 ```css
-.theme-one-dark-ui {
+.theme-vanian-ui {
   .tab-bar { font-size: 18px; }
   .tree-view { font-size: 14px; }
   .status-bar { font-size: 12px; }
