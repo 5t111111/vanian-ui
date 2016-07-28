@@ -2,14 +2,14 @@
   "name": "vanian-ui",
   "theme": "ui",
   "version": "1.5.0",
-  "description": "Atom One dark UI theme",
+  "description": "Atom Vanian UI theme",
   "keywords": [
     "dark",
     "adaptive",
     "ui"
   ],
   "license": "MIT",
-  "repository": "https://github.com/atom/vanian-ui",
+  "repository": "https://github.com/5t111111/vanian-ui",
   "main": "lib/main",
   "engines": {
     "atom": ">0.40.0"
