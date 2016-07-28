@@ -61,7 +61,6 @@
 @level-2-color: @base-background-color;
 @level-3-color: darken(@base-background-color, 3%);
 
-
 // Accent (Custom) -----------------
 @accent-color:            hsl(@ui-hue, 100%, 66%);
 @accent-text-color:       lighten(@accent-color, 6%); // A bit lighter when used for smaller things
@@ -87,9 +86,9 @@
 
 @progress-background-color:         @accent-color;
 
-@scrollbar-color:                   @level-1-color;
+@scrollbar-color:                   darken(hsl(325, 72%, 73%), 45%);
 @scrollbar-background-color:        @level-3-color; // replaced `transparent` with a solid color to test https://github.com/atom/one-light-ui/issues/4
-@scrollbar-color-editor:            contrast(@ui-syntax-color, darken(@ui-syntax-color, 18%), lighten(@ui-syntax-color, 9%) );
+@scrollbar-color-editor:            @scrollbar-color;
 @scrollbar-background-color-editor: @ui-syntax-color;
 
 
