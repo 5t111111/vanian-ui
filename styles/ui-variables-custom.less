@@ -1,8 +1,12 @@
 
-// ONE dark UI colors
+// Vanian UI colors
 // ----------------------------------------------
 
 @import "syntax-variables";
+
+@dark-pink:   darken(hsl(325, 72%, 73%), 45%);
+@dark-purple: lighten(hsl(264, 89%, 77%), 5%);
+
 .ui-syntax-color() { @syntax-background-color: hsl(220,24%,20%); } .ui-syntax-color(); // fallback color
 @ui-syntax-color: @syntax-background-color;
 
@@ -86,7 +90,7 @@
 
 @progress-background-color:         @accent-color;
 
-@scrollbar-color:                   darken(hsl(325, 72%, 73%), 45%);
+@scrollbar-color:                   @dark-pink;
 @scrollbar-background-color:        @level-3-color; // replaced `transparent` with a solid color to test https://github.com/atom/one-light-ui/issues/4
 @scrollbar-color-editor:            @scrollbar-color;
 @scrollbar-background-color-editor: @ui-syntax-color;
